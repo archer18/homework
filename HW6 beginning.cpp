@@ -17,10 +17,10 @@ cin.get(input,cstring_size);
 cout<<endl;
 
 while(input[i] != '\0')
-{;
+{
 	count=i;
 	
-	if(input[count] == '.') 
+	if(input[i] == '.') 
 	{ 
 		int j=0;
 		while(input[count] != '\0')
